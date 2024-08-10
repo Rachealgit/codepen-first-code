@@ -1,59 +1,104 @@
-<HTML>
-  <Header> 
-    <Title> A Web page about Racheal Ehiwe </Title>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky Footer Example</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header> 
+    <h1>All About Racheal Ehiwe</h1>
+</header>
   
-  </Header>
-  <body>
+<div class="content">
     <div id="dev-tool-div"></div>
-  <div class="loader-section section-fade"></div>
-  <div class="loader-inner"><div id="loader"><span></span></div></div>
-  <main> 
-    <h1> <img src = "https://i.imgur.com/iito4At.jpeg" </img> <strong> RACHEAL EHIWE </h1>          
-    
-    <h2>  About : </h2>
-    <p class = "paragraph" > Racheal Ehiwe was born in Jan 25th 1986, in Warri , Delta State. She is from Igueben Local Government Area, Edo State, Nigeria.
+    <div class="loader-section section-fade"></div>
+    <div class="loader-inner">
+        <div id="loader"><span></span></div>
       
-    <h2> Hobbies : </h2>
-      <ul>
-        <li> <p class = "paragraph" > Travelling</li> 
-        <li> <p class = "paragraph" >Adventurous  </li>  
-        <li> <p class = "paragraph" >Swimming </li> </p>
-      </ul>
-    <h2> Interest : </h2>  
-    <ul>
-      <li>  <p class = " paragraph "> Coding, </li>
-      <li> <p class = "paragraph"> Business, </li> 
-      <li> <p class = "paragraph"> Politics , </li>
-      <li> <p class = "paragraph" > History </li>
-    </ul>
-    <h2> <stong> Educational History: </h2>
-    <p class="paragraph"> Attended Orhue Primary School where she gained her first school leaving certificate (1995), also attended Baptist High School and obtained her National Examination Certificate (2001), proceeded to University of Portharcourt and acquired a Bachelor Degree in Computer Science (2009). Then in 2019, she obtained her Masters in Information Technology (MSc Info. Tech) from Open University of Nigeria. </p>
-      
-    <h2> Job Experience: </h2> 
-  <p class = "paragraph" >
-Racheal’s interest in Computer Technology was from childhood curiousity, fascinated about computer games and video games at its early stage. Her keen interest was to learn about computer and its diversity to bring a change to the world using technological tools. Her passion for IT got her a job with the Edo State Government Information Technology Agency, and was later absorb into the Edo Civil Service Commission in the Ministry of Budget and Economic Planning as a Program Analyst, which afforded her the opportunity to showcase her skill in the Nigeria Erosion Watershed Management Project (NEWMAP) as the ICT/MIS officer and also was recommended to head the MIS Unit of a Federal Government Program called Household Uplifting Program in Nigeria, Edo State. </p>
-      <h2> Academic Courses: </h2> 
-      <p class = "paragraph"> Diploma Acreditativo <br>
-Certificado Profesional <br> Soporte de Tecnologias de la Informacion <br> Google Programa de Formacion .<br>
-INCO Academy Espana (2023)
-        <p class = "paragraph"> Competències Digitals <br> COMPETIC 1<br>Genralitat de Catalunya (2022) 
-          
-          <p class = "paragraph"> MODERNIZED
-AGRICULTURE FOR GOVERNMENT OFFICIALS FROM NIGERIA, <br>
-CHINESE ACADEMY OF AGRICULTURAL MECHANIZATION SCIENCES
-(CAAMS)  <br> 2019 Beijing,China
-
-  <h2> Marriage Life : </h2>
-      <p class = "paragraph" <p>
-Racheal got married to Willson Ikponmwosa, in 2019, and relocated to Barcelona, Spain.
-
-    </p>
-  </main>
+    </div>
+  <p>  Things you know </p>
+  <ul id="list"></ul>
+  <input type="text" id="arrayInput" placeholder="Enter item" />
+    <button onclick="addItem()">More About Racheal</button>
   
-  <footer 
-class= "footer footer - footer black footer - big"> 
-    <div class="container"</div>
-    <div class="content"</div>
-    <button class="hestia-scroll-to-top hestia-fade"> </button>
+    <main> 
+        <img src="https://i.imgur.com/iito4At.jpeg" alt="Racheal Ehiwe"alt="puppy" wight="300" height="300">
+          
+        </img>
+      
+        <p>RACHEAL EHIWE is a software engineer whose specialised in full stack web development with passion for front end . She design , build , and maintain functional, visually appealing and secure web applications .</p>
+  
+        <h2>About:</h2>
+        <p class="paragraph">Racheal Ehiwe was born on Jan 25th, 1986, in Warri, Delta State. She is from Igueben Local Government Area, Edo State, Nigeria.</p>
+        <ul id="list"></ul>
+        <button id="button"><a href="https://docs.google.com/document/d/13n1bx5We-vdyKd_RQaP4PruMiRtlNg4jI272AlxLDe8/edit" target="_blank">STRENGTH</a></button>
+        <button id="button2">WEAKNESS</button>
+        <button id="button2">OPPORTUNITIES</button>
+      
+        <h2>PROGRAMMING LANGUAGE:</h2>
+        <ul>
+            <li><p class="paragraph">HTML</p></li> 
+            <li><p class="paragraph">JAVA SCRIPT</p></li>  
+            <li><p class="paragraph">NODE.JS</p></li>
+            <li><p class="paragraph">DATABASE POSTGRESS</p></li>
+            <li><p class="paragraph">REACT</p></li>
+        </ul>
+
+        <h2>Interest:</h2>  
+        <ul>
+            <li><p class="paragraph">Coding</p></li>
+            <li><p class="paragraph">Business</p></li> 
+            <li><p class="paragraph">Politics</p></li>
+            <li><p class="paragraph">History</p></li>
+        </ul>
+
+        <h2><strong>Educational History:</strong></h2>
+        <p class="paragraph">Attended Orhue Primary School where she gained her first school leaving certificate (1995), also attended Baptist High School and obtained her National Examination Certificate (2001), proceeded to University of Portharcourt and acquired a Bachelor Degree in Computer Science (2009). Then in 2019, she obtained her Masters in Information Technology (MSc Info. Tech) from Open University of Nigeria.</p>
+      
+        <h2>Job Experience:</h2> 
+        <p class="paragraph">Racheal’s interest in Computer Technology was from childhood curiosity, fascinated about computer games and video games at its early stage. Her keen interest was to learn about computer and its diversity to bring a change to the world using technological tools. Her passion for IT got her a job with the Edo State Government Information Technology Agency, and was later absorbed into the Edo Civil Service Commission in the Ministry of Budget and Economic Planning as a Program Analyst, which afforded her the opportunity to showcase her skill in the Nigeria Erosion Watershed Management Project (NEWMAP) as the ICT/MIS officer and also was recommended to head the MIS Unit of a Federal Government Program called Household Uplifting Program in Nigeria, Edo State.</p>
+      
+        <h2>Academic Courses:</h2> 
+        <p class="paragraph">Diploma Acreditativo<br>
+        Certificado Profesional<br> Soporte de Tecnologias de la Informacion<br>Google Programa de Formacion<br>
+        INCO Academy Espana (2023)</p>
+        <p class="paragraph">Competències Digitals<br>COMPETIC 1<br>Generalitat de Catalunya (2022)</p>
+        <p class="paragraph">MODERNIZED AGRICULTURE FOR GOVERNMENT OFFICIALS FROM NIGERIA,<br>CHINESE ACADEMY OF AGRICULTURAL MECHANIZATION SCIENCES (CAAMS)<br>2019 Beijing, China</p>
+
+        <h2>Marriage Life:</h2>
+        <p class="paragraph">Racheal got married to Willson Ikponmwosa in 2019 and relocated to Barcelona, Spain.</p>
+    </main>
+</div>
+  
+<footer>
+    <div class="footer-content">
+        <div class="footer-section contact-info">
+            <h3>Contact Us</h3>
+            <p>Email: racheal.ehiwe29@gmail.com</p>
+            <p>Phone: +34 628324839</p>
+        </div>
+        <div class="footer-section social-icons">
+            <h3>Follow Us</h3>
+            <a href="#" target="_blank">Facebook</a>
+            <a href="#" target="_blank">Twitter</a>
+            <a href="#" target="_blank">Instagram</a>
+            <a href="#" target="_blank">LinkedIn</a>
+        </div>
+        <div class="footer-section additional-links">
+            <h3>Quick Links</h3>
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        &copy; 2024 Racheal Ehiwe. All rights reserved.
+    </div>
 </footer>
+
 </body>
+</html>
